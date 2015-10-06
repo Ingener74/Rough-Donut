@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RoughDonut.iml" filepath="$PROJECT_DIR$/RoughDonut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rough-Donut.iml" filepath="$PROJECT_DIR$/Rough-Donut.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

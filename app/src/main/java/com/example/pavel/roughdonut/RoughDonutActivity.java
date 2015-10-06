@@ -20,9 +20,9 @@ public class RoughDonutActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-
         _timeView = new TextTimeView((TextView) findViewById(R.id.Text1));
         _timeSource = new TimeSource(_timeView);
+        _timeSource.setTime();
     }
 
     @Override
@@ -33,6 +33,6 @@ public class RoughDonutActivity extends AppCompatActivity {
     }
 
     static {
-        System.loadLibrary("RockyBreezeAndroid");
+        System.loadLibrary("EndlessElectron");
     }
 }
